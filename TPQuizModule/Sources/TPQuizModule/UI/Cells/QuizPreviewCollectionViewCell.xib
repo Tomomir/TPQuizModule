@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QuizPreviewCollectionViewCell" id="gTV-IL-0wX" customClass="QuizPreviewCollectionViewCell" customModule="TPQuizModule">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="430"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="430"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ylE-rL-YMf">
+                        <rect key="frame" x="0.0" y="12.666666666666657" width="390" height="430"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wfy-D7-HaV">
+                                <rect key="frame" x="0.0" y="-1.6666666666666572" width="390" height="343.33333333333326"/>
+                                <imageReference key="image" image="questionmark.app.fill" catalog="system" symbolScale="large"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cars" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grZ-jP-aHk">
+                                <rect key="frame" x="11" y="350" width="368" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="jMD-Zg-miR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="grZ-jP-aHk" firstAttribute="top" secondItem="Wfy-D7-HaV" secondAttribute="bottom" constant="10" id="8SP-Gp-rFf"/>
+                            <constraint firstItem="Wfy-D7-HaV" firstAttribute="top" secondItem="ylE-rL-YMf" secondAttribute="top" id="Miv-Zp-Dqg"/>
+                            <constraint firstAttribute="trailing" secondItem="Wfy-D7-HaV" secondAttribute="trailing" id="Ndm-ol-TO5"/>
+                            <constraint firstItem="Wfy-D7-HaV" firstAttribute="leading" secondItem="ylE-rL-YMf" secondAttribute="leading" id="ZAw-gR-uSN"/>
+                            <constraint firstItem="grZ-jP-aHk" firstAttribute="leading" secondItem="ylE-rL-YMf" secondAttribute="leading" constant="11" id="gMQ-Ei-nSu"/>
+                            <constraint firstAttribute="bottom" secondItem="grZ-jP-aHk" secondAttribute="bottom" constant="20" id="gto-my-UVs"/>
+                            <constraint firstAttribute="trailing" secondItem="grZ-jP-aHk" secondAttribute="trailing" constant="11" id="kUi-fL-AsD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ylE-rL-YMf" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="1Lo-Pd-Gym"/>
+                <constraint firstItem="ylE-rL-YMf" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="36N-m6-R11"/>
+                <constraint firstItem="ylE-rL-YMf" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="VJ1-Ak-rWn"/>
+                <constraint firstItem="ylE-rL-YMf" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="qzy-gk-lUP"/>
+            </constraints>
+            <size key="customSize" width="331" height="284"/>
+            <connections>
+                <outlet property="previewImageView" destination="Wfy-D7-HaV" id="wOK-mj-4Tl"/>
+                <outlet property="previewLabel" destination="grZ-jP-aHk" id="vq2-o9-2X1"/>
+            </connections>
+            <point key="canvasLocation" x="343.51145038167937" y="71.126760563380287"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="questionmark.app.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

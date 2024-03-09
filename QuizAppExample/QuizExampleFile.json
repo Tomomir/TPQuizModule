@@ -1,0 +1,365 @@
+{ "quizArray" : [
+    {
+        "id": "6E5B9AC3-D28F-4F23-8590-2A73A399D542",
+        "title": "General Knowledge",
+        "iconName": "brain",
+        "questions": [
+            {
+                "id": "4D6B90FA-6E62-446D-8591-6E1C2F8B0E9C",
+                "questionString": "What is the capital of Japan?",
+                "answers": [
+                    {
+                        "id": "A42BF7E7-2A25-49A7-9A48-2E7ED9A6DB27",
+                        "answerString": "Tokyo",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": "6C89FAB1-22D7-470C-8E96-9F55F21E2E2E",
+                        "answerString": "Beijing",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "DE2D2251-3C05-4E86-AD08-2A5958C35D05",
+                        "answerString": "Seoul",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "98780BFD-8C91-4A6C-B2F3-FC5713BBFAA8",
+                        "answerString": "Bangkok",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": "6AF4F40B-3989-41D7-9E6C-DA6703FFBD05",
+                "questionString": "Who painted the Mona Lisa?",
+                "answers": [
+                    {
+                        "id": "6D721CB2-57A4-4F3D-8260-E180DC1BAA41",
+                        "answerString": "Vincent van Gogh",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "2F5C7CF5-8325-44C4-B11F-4E7435F401BF",
+                        "answerString": "Pablo Picasso",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "60E4E788-3AFB-4B6D-A37D-CA51BBAAC6BD",
+                        "answerString": "Leonardo da Vinci",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": "55DFA454-18C5-4B88-B7E1-485E305C897D",
+                        "answerString": "Claude Monet",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": "AA4EF64B-CEB4-4C57-BC0F-EE4E312AB1A3",
+                "questionString": "Which planet is known as the Red Planet?",
+                "answers": [
+                    {
+                        "id": "E54580B9-E2CE-4ABF-AF4D-B72E79D84545",
+                        "answerString": "Jupiter",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "4E36FD29-9940-4024-B4CA-BA6A1231692B",
+                        "answerString": "Mars",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": "FC3A3643-79A0-46D5-8457-9E32B6ADFF69",
+                        "answerString": "Venus",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "88BC37B9-8E71-4A7C-9F44-3393CB891D4A",
+                        "answerString": "Uranus",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": "C032D7C1-4E39-4200-A3A3-41FF2A7CFBCB",
+                "questionString": "Who wrote the novel 'To Kill a Mockingbird'?",
+                "answers": [
+                    {
+                        "id": "A03A129C-C05B-4A79-99D3-363A07DB3791",
+                        "answerString": "Mark Twain",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "0382F97B-C831-4348-B9A0-EFA29FED2B44",
+                        "answerString": "Charles Dickens",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "6181E497-CF99-47F5-8822-7B8C2163C19E",
+                        "answerString": "J.K. Rowling",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "540D5E4F-6B5E-4CAB-AF9B-FA045A274740",
+                        "answerString": "Harper Lee",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "F780E8A9-513B-4A1F-A39E-01FD3DE4D7D2",
+        "title": "Cars",
+        "iconName": "car",
+        "questions": [
+            {
+                "id": "2B17DEE1-D503-414A-89A2-12D0FCE046A4",
+                "questionString": "Which car manufacturer produces the Mustang?",
+                "answers": [
+                    {
+                        "id": "49F5B9F0-2E74-4827-BDFE-7D35E5840658",
+                        "answerString": "Chevrolet",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "D9C2FEB4-233D-4EAB-AE89-43ABE5C09BC2",
+                        "answerString": "Dodge",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "3A5B8FCB-25C7-42A2-8D27-78B50F0FA7E0",
+                        "answerString": "Ford",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": "BFE496F0-020C-4D49-AD21-CC2E3A0510DD",
+                        "answerString": "Toyota",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": "75CE0A86-0A69-46A5-B5E4-0FA8C2A1E12B",
+                "questionString": "Which car model is known as 'The Bug'?",
+                "answers": [
+                    {
+                        "id": "A54A9D8B-063E-42A2-8D91-FFFEA9ECCD8E",
+                        "answerString": "Volkswagen Beetle",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": "FABEDAF7-8194-4EC8-B0C0-3AB7DD64A7A5",
+                        "answerString": "Toyota Corolla",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "D2B9DFDF-6CC7-499A-AC9E-6F3C020D820C",
+                        "answerString": "Honda Civic",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "2F056786-C74B-49C4-8EC2-3650403E1DA0",
+                        "answerString": "Ford Mustang",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": "6E6B3F10-54A9-4B89-ACF1-15A6FCC2D87A",
+                "questionString": "Which car brand produces the Camry?",
+                "answers": [
+                    {
+                        "id": "2B6F4185-4CC6-49E3-8904-175C35D6A56E",
+                        "answerString": "Honda",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "3A00C2F2-9B3F-4F5F-B6E3-7C39AC76AED9",
+                        "answerString": "Chevrolet",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "8B3AEC43-89C0-4D64-BD0F-18D1E7328F6D",
+                        "answerString": "Ford",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "1B902694-5C64-441D-B724-CA7A0E369FA1",
+                        "answerString": "Toyota",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": "D59776C9-62CE-4E77-A4B1-08A6892D0636",
+                "questionString": "What car brand produces the Wrangler?",
+                "answers": [
+                    {
+                        "id": "D1D7B2D4-ECE7-44E4-9822-88EC167F3A47",
+                        "answerString": "Toyota",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "97EED5D0-E9A1-4865-A0F3-0DB326C51810",
+                        "answerString": "Jeep",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": "71EF7194-580D-439D-B98A-5F4D5D2BFB47",
+                        "answerString": "Honda",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "EDC884D5-E2FE-4205-B18A-0F30E5C9B560",
+                        "answerString": "Chevrolet",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": "D59776C9-62CE-4E77-A4B1-08A6892D0637",
+                "questionString": "Which car model is known as the 'G-Wagon'?",
+                "answers": [
+                    {
+                        "id": "7B6842AB-E9B7-40CB-82F7-74068C5BC403",
+                        "answerString": "Mercedes-Benz G-Class",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": "460F518C-FC40-490D-85B9-E1E0AD749D0F",
+                        "answerString": "Audi Q7",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "14D02E6E-BE17-44F3-BEBF-0C6B27249B54",
+                        "answerString": "BMW X5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": "C7C4DE3F-EF98-4DB5-91B0-BB4E6B4C73BC",
+                        "answerString": "Lamborghini Urus",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+      "id": "E572C4A4-1027-47A6-A11A-6E00D9D4F001",
+      "title": "Movies - Multiple Correct Answers",
+      "iconName": "movieclapper.fill",
+      "questions": [
+        {
+          "id": "F19BC9C9-2B48-4A9E-B62D-F3B4454C09B1",
+          "questionString": "Which of the following actors have portrayed James Bond in the official Eon Productions series? (Select all that apply)",
+          "answers": [
+            {
+              "id": "E3A747E7-4A7D-47D3-8443-FA3D7E72D8A8",
+              "answerString": "Sean Connery",
+              "isCorrect": true
+            },
+            {
+              "id": "F6AB7DE0-CA54-4B39-A9F3-FEAA846B656D",
+              "answerString": "Roger Moore",
+              "isCorrect": true
+            },
+            {
+              "id": "ABE9D889-8A18-4864-8EC1-9CCB7FFFA60F",
+              "answerString": "Daniel Craig",
+              "isCorrect": true
+            },
+            {
+              "id": "0BB75C24-8480-45C4-91F7-7071E65C4D7E",
+              "answerString": "George Lazenby",
+              "isCorrect": false
+            },
+            {
+              "id": "3C7E4574-FAE8-4D61-897A-8AB96A1863E2",
+              "answerString": "Pierce Brosnan",
+              "isCorrect": true
+            },
+            {
+              "id": "CBD27365-3A7A-4903-8DF7-8D500C19745C",
+              "answerString": "Timothy Dalton",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": "A89E9008-9F6F-4227-8D8A-4769A3F35AB2",
+          "questionString": "Which of the following movies have won the Academy Award for Best Picture? (Select all that apply)",
+          "answers": [
+            {
+              "id": "243207A0-8F39-4BC7-9892-2D7F4F0FA877",
+              "answerString": "The Godfather",
+              "isCorrect": true
+            },
+            {
+              "id": "4F402024-570C-4F2A-B1AC-2EDEA846B4AE",
+              "answerString": "Titanic",
+              "isCorrect": true
+            },
+            {
+              "id": "CDCE439A-0E3D-42C5-8A2C-0AB8B0285D7F",
+              "answerString": "The Lord of the Rings: The Return of the King",
+              "isCorrect": true
+            },
+            {
+              "id": "D54C37D9-4312-42F7-9439-3A8F885AC65B",
+              "answerString": "Avatar",
+              "isCorrect": false
+            },
+            {
+              "id": "2E3A3D81-2A61-4D21-8B84-58865E0367B5",
+              "answerString": "Inception",
+              "isCorrect": false
+            },
+            {
+              "id": "ADFA8232-39E4-49BC-A617-44E083CF6DD4",
+              "answerString": "Gladiator",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "id": "B69EF5AE-C656-4C84-8E78-5CFAFE9E8DBD",
+          "questionString": "Which of the following actors have portrayed Batman in a live-action film? (Select all that apply)",
+          "answers": [
+            {
+              "id": "157C7D35-6500-4B6B-ABF0-14FBE93B1CDB",
+              "answerString": "Christian Bale",
+              "isCorrect": true
+            },
+            {
+              "id": "B41E6D7F-F25E-42FC-9892-8DFA32549A79",
+              "answerString": "George Clooney",
+              "isCorrect": true
+            },
+            {
+              "id": "A5AB61E2-0D1A-4154-B192-13BCB7CF24D8",
+              "answerString": "Ben Affleck",
+              "isCorrect": true
+            },
+            {
+              "id": "83733E97-FE39-4A79-87CB-39D907344F55",
+              "answerString": "Adam West",
+              "isCorrect": true
+            },
+            {
+              "id": "1210A6FF-ED6A-4AF4-8E9F-F422A468C6D3",
+              "answerString": "Michael Keaton",
+              "isCorrect": true
+            },
+            {
+              "id": "37F96A79-EF82-4A25-985E-1A1851936067",
+              "answerString": "Val Kilmer",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    }]
+}

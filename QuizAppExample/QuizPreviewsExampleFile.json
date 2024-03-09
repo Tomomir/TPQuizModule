@@ -1,0 +1,17 @@
+{ "previewArray" : [
+    {
+        "quizId": "6E5B9AC3-D28F-4F23-8590-2A73A399D542",
+        "title": "General Knowledge",
+        "iconName": "brain"
+    },
+    {
+        "quizId": "F780E8A9-513B-4A1F-A39E-01FD3DE4D7D2",
+        "title": "Cars",
+        "iconName": "car"
+    },
+    {
+        "quizId": "E572C4A4-1027-47A6-A11A-6E00D9D4F001",
+        "title": "Movies - Multiple Correct Answers",
+        "iconName": "movieclapper.fill"
+    }]
+}
